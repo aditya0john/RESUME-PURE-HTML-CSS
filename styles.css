@@ -1,0 +1,44 @@
+body{
+    height: 100dvh;
+    margin: 2%;
+}
+
+main {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 0.8fr 0.1fr 1fr;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#links{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+#article1{
+    column-gap: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#article2{
+    column-gap: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    align-items: start;
+    justify-content: center;
+}
+
+hr{
+    opacity: 40%;
+}
